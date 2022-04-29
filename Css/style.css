@@ -1,0 +1,44 @@
+:root {
+    --main-font: 'Libre Bodoni', serif;
+    --sup-font: 'Roboto', sans-serif;
+    --main-color: #2FCE98 ;
+    --sup-color: #535353 ;
+    --bg-color: #000 ; 
+    --wh-color : #fff ;
+
+  }
+  html {
+    font-size: 15px;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    position: relative;
+    height: 1000px;
+    scroll-behavior: smooth;
+  }
+  /* ------------golbal-style---------------------- */
+  span,
+  a {
+    display: inline-block;
+  }
+  img {
+    width: 100%;
+  }
+  
+  
+  section {
+    margin: 40px 0;
+  }
+ 
+  ul {
+    list-style: none;
+  }
+  li {
+    text-decoration: none;
+  }
+  
+  /* ------------/golbal-style---------------------- */
